@@ -489,7 +489,7 @@ animation: bounce 5s linear infinite;
 }
 @media (max-width:360px) {
     .circle-section-mobile{
-        display: block;
+        display: none;
     }
 }
 
