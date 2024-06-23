@@ -461,16 +461,13 @@ animation: bounce 5s linear infinite;
 }
 
 @media (min-width:768px) {
-    .circle-section-mobile{
-        display: none;
+    .circle-section-desktop{
+        display: block;
     }
 }
 @media (max-width:768px) {
     h3{
         font-size: 15px;
-    }
-    .circle-section-desktop{
-        display: none;
     }
     .about-container{
         flex-direction: column;
@@ -484,12 +481,16 @@ animation: bounce 5s linear infinite;
 }
 @media (min-width:360px) {
     .circle-section-mobile-3{
+        display: none;
+    }
+    .circle-section-mobile{
         display: block;
     }
+
 }
 @media (max-width:360px) {
-    .circle-section-mobile{
-        display: none;
+    .circle-section-mobile-3{
+        display: block;
     }
 }
 
