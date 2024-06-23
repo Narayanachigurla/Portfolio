@@ -484,12 +484,12 @@ animation: bounce 5s linear infinite;
 }
 @media (min-width:360px) {
     .circle-section-mobile-3{
-        display: none;
+        display: block;
     }
 }
 @media (max-width:360px) {
     .circle-section-mobile{
-        display: none;
+        display: block;
     }
 }
 
