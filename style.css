@@ -253,19 +253,19 @@ h3{
     position: relative;
 } 
 .cir-1m{
-    transform:translate(-40px, 80px);
+    transform: translate(-60px, 20px);
 }
 .cir-2m {
-    transform: translate(0px, -100px);
+    transform: translate(40px, -115px);
 }
 .cir-3m{
-    transform: translate(30px, 210px);
+    transform: translate(-60px, 180px);
 }
 .cir-4m{
-    transform: translate(80px, 200px);
+    transform: translate(20px, 210px);
 }
 .cir-5m{
-    transform: translate(-120px, 180px);
+    transform: translate(-170px, 110px);
 }
 .cir-6m{
     transform: translate(110px, 110px);
@@ -280,7 +280,7 @@ h3{
     transform: translate(220px, 0px);
 }
 .cir-10m{
-    transform: translate(-140px, -50px);
+    transform: translate(-115px, -100px);
 }
 .cir-11m{
     transform: translate(120px, -80px);
