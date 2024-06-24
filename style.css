@@ -399,6 +399,9 @@ animation: bounce 5s linear infinite;
     .circle-section-mobile{
         display: none;
     }
+    .home2{
+        display: none;
+    }
 }
 @media (max-width:768px) {
     h3{
@@ -412,6 +415,9 @@ animation: bounce 5s linear infinite;
     }
    .about-img-container{
         width: 80%;
+    }
+    .home{
+        display: none;
     }
 }
 
