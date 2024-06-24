@@ -306,7 +306,7 @@ h3{
 
 /* 3rd Circle upto 320px */
 
-.circle-img{
+/* .circle-img{
     width: 10%;
 }
 .animated3 {
@@ -382,7 +382,7 @@ h3{
     background-color: #fff;
     position: absolute;
     border-radius: 50%;
-}
+} */
 
 
 /* About Styles */
@@ -460,9 +460,22 @@ animation: bounce 5s linear infinite;
     100%{top: 80px}
 }
 
+@media (min-width:160px) {
+    .circle-section-mobile{
+        display: block;
+    }
+    .circle-section-desktop{
+        display: none;
+    }
+
+}
+
 @media (min-width:768px) {
     .circle-section-desktop{
         display: block;
+    }
+    .circle-section-mobile{
+        display: none;
     }
 }
 @media (max-width:768px) {
@@ -479,20 +492,8 @@ animation: bounce 5s linear infinite;
         width: 80%;
     }
 }
-@media (min-width:360px) {
-    .circle-section-mobile-3{
-        display: none;
-    }
-    .circle-section-mobile{
-        display: block;
-    }
 
-}
-@media (max-width:360px) {
-    .circle-section-mobile-3{
-        display: block;
-    }
-}
+
 
 /* Projects styles */
 .content{
