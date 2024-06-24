@@ -220,7 +220,7 @@ h3{
 
 
 /* circle2 for mobile width */
-.circle-section-mobile,.circle-section-mobile-3{
+.circle-section-mobile{
     padding-top: 200px;
     padding-bottom: 100px;
     display: flex;
@@ -268,7 +268,7 @@ h3{
     transform: translate(-120px, 180px);
 }
 .cir-6m{
-    transform: translate(60px, 110px);
+    transform: translate(90px, 110px);
 }
 .cir-7m{
     transform: translate(0px, 170px);
@@ -283,7 +283,7 @@ h3{
     transform: translate(-140px, -50px);
 }
 .cir-11m{
-    transform: translate(90px, -100px);
+    transform: translate(120px, -80px);
 }
 
 @keyframes circle2 {
@@ -302,87 +302,6 @@ h3{
     width: 200px;
     background-color: #fff;
 }
-
-
-/* 3rd Circle upto 320px */
-
-/* .circle-img{
-    width: 10%;
-}
-.animated3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-}
-.animated3-img{
-    width: 100%;
-    opacity: 0;
-}
-
-.circle3 {
-    width: 80%;
-    position: absolute;
-    height: 80%;
-    border-radius: 50%;
-    animation: circle2 10s linear infinite;
-}
-.circle-img{
-    position: relative;
-} 
-.cir3-1m{
-    transform: translate(-30px, 30px);
-}
-.cir3-2m {
-    transform: translate(0px, -70px);
-}
-.cir3-3m{
-    transform: translate(70px, 110px);
-}
-.cir3-4m{
-    transform: translate(90px, 60px);
-}
-.cir3-5m{
-    transform: translate(-40px, 130px);
-}
-.cir3-6m{
-    transform: translate(50px, 30px);
-}
-.cir3-7m{
-    transform: translate(0px, 80px);
-}
-.cir3-8m{
-    transform: translate(50px, -95px);
-}
-.cir3-9m{
-    transform: translate(100px, -50px);
-}
-.cir3-10m{
-    transform: translate(-110px, -50px);
-}
-.cir3-11m{
-    transform: translate(10px, -80px);
-}
-
-@keyframes circle3 {
-    0%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}  
-.white-box{
-    height: 200px;
-    width: 200px;
-    background-color: #fff;
-    position: absolute;
-    border-radius: 50%;
-} */
 
 
 /* About Styles */
@@ -462,7 +381,8 @@ animation: bounce 5s linear infinite;
 
 @media (min-width:160px) {
     .circle-section-mobile{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
     .circle-section-desktop{
         display: none;
@@ -472,7 +392,7 @@ animation: bounce 5s linear infinite;
 
 @media (min-width:768px) {
     .circle-section-desktop{
-        display: block;
+        display: flex;
     }
     .circle-section-mobile{
         display: none;
