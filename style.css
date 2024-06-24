@@ -262,16 +262,16 @@ h3{
     transform: translate(30px, 210px);
 }
 .cir-4m{
-    transform: translate(60px, 200px);
+    transform: translate(80px, 200px);
 }
 .cir-5m{
     transform: translate(-120px, 180px);
 }
 .cir-6m{
-    transform: translate(90px, 110px);
+    transform: translate(110px, 110px);
 }
 .cir-7m{
-    transform: translate(0px, 170px);
+    transform: translate(20px, 170px);
 }
 .cir-8m{
     transform: translate(160px, -140px);
@@ -298,9 +298,11 @@ h3{
     }
 }  
 .white-box{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
     background-color: #fff;
+    border-radius: 50%;
 }
 
 
