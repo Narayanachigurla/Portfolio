@@ -436,6 +436,8 @@ animation: bounce 5s linear infinite;
         background-position: center;
         display: flex;
         justify-content: center;
+        position: relative;
+        z-index: -1;
     }
 
 .card {
