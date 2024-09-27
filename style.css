@@ -22,6 +22,9 @@ section{
     background-position: bottom;
     padding-left: 0px;
 }
+a{
+    text-decoration: none;
+}
 h1{
     color: #fff;
     font-weight: 600;
