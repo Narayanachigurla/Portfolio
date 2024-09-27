@@ -62,6 +62,10 @@ h3{
     gap: 40px;
 }
 
+.logo h3{
+    margin: 0px;
+}
+
 
 .navbar .nav-links ul li{
     list-style: none;
