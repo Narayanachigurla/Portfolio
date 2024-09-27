@@ -145,6 +145,9 @@ li a::before {
     .hamburger span {
         display: block;
     }
+    .nav-link-group li:hover a::before{
+        width: 0%;
+    }
 }
 /* Banner Styles */
 .title{
